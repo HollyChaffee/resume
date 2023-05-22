@@ -20,7 +20,7 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #dcdcdc;
+    background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -30,9 +30,9 @@ body {
     display:flex; 
    /* display: grid;
     grid-template-rows: 2fr; */
-    position: fixed;
-    width: 72.3%;
-    height: 35%;
+    position: relative;
+    width: 75%;
+    height: 25%;
     background: #e7c9bb;
     padding: 40px;
 } 
@@ -40,13 +40,42 @@ body {
 .container .left-Side {
     position: relative;
     background: #6e9b9b;
-    padding: 40px;
+    padding: 30px;
 }
 
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #a9a9a9; 
+}
+
+.profileText h2 {
+    color: #2a1f1a;
+    font-size: 1.6em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-size: 0.7em;
+    font-weight: 300;
+
+
+}
 .container .right-Side {
     position: relative;
     background: #fdfdfd;
     padding: 40px;
 }
 
+img {
+    border-radius: 50%;
+    
+  }
 
